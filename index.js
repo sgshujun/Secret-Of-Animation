@@ -8,6 +8,7 @@ let app = express();
 // app.get('/about',(request,response)=> {
 //     response.send("this is an about page");
 // })
+// test
 
 app.use('/',express.static('public'));
 
